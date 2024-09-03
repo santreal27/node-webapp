@@ -1,7 +1,7 @@
 FROM node:lts-slim
 
 EXPOSE 3000
-WORKDIR ~/workspace/node-app
+WORKDIR /home/ksantiago/workspace/node-app
 RUN npm install
 
 COPY . /home/node-app
